@@ -1,2 +1,3 @@
 # foundryvtt-shadowdark-sun
-Module 
+
+Module

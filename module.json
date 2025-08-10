@@ -1,0 +1,65 @@
+{
+    "id": "foundryvtt-shadowdark-sun",
+    "title": "ShadowDark Sun",
+    "description": "A Module that provides Dark Sun styling and content for the Shadowdark system for Foundry VTT.",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": 13,
+        "verified": 13
+    },
+    "authors": [
+        {
+            "name": "Jeff Barnes",
+            "discord": "murderhobo6226",
+            "flags": {}
+        }
+    ],
+    "esmodules": ["main.mjs"],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "en.json"
+        }
+    ],
+    "packs": [
+        {
+            "name": "items",
+            "label": "DarkSun - Items",
+            "path": "./packs/items.db",
+            "type": "Item",
+            "module": "foundryvtt-shadowdark-sun",
+            "system": "shadowdark"
+        },
+        {
+            "name": "characters",
+            "label": "DarkSun - Characters",
+            "path": "./packs/characters.db",
+            "type": "Actor",
+            "module": "foundryvtt-shadowdark-sun",
+            "system": "shadowdark"
+        },
+        {
+            "name": "journals",
+            "label": "DarkSun - Journals",
+            "path": "./packs/journals.db",
+            "type": "JournalEntry",
+            "module": "foundryvtt-shadowdark-sun",
+            "system": "shadowdark"
+        },
+        {
+            "name": "tables",
+            "label": "DarkSun - Tables",
+            "path": "./packs/tables.db",
+            "type": "RollTable",
+            "module": "foundryvtt-shadowdark-sun",
+            "system": "shadowdark"
+        }   
+    ],
+    "styles": [
+        { 
+            "src": "styles/darksun.css", 
+            "layer": "system" 
+        }
+    ]
+}
