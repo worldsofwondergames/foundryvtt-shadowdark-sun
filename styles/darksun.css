@@ -1,0 +1,22 @@
+#pause > img {
+    content: url('../assets/loading.png');
+    top: -56px;
+    opacity: 0.8;
+    --fa-animation-duration: 30s;
+}
+
+#pause {
+    height: auto;
+    animation: none;
+
+    figcaption {
+        font-family: var(--font-header);
+        font-size: 64px;
+        line-height: 0.5;
+        opacity: 0.8;
+        text-shadow: 4px 4px black;
+        font-weight: normal;
+        text-transform: none;
+        color: white;
+    }
+}

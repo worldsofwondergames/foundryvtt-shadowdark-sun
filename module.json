@@ -54,12 +54,12 @@
             "type": "RollTable",
             "module": "foundryvtt-shadowdark-sun",
             "system": "shadowdark"
-        }   
+        }
     ],
     "styles": [
-        { 
-            "src": "styles/darksun.css", 
-            "layer": "system" 
+        {
+            "src": "styles/darksun.css",
+            "layer": "system"
         }
     ]
 }
